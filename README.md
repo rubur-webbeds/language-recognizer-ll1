@@ -12,3 +12,9 @@ We'll be able to code an automaton that recognizes the lenguage described in the
 | p3 | I -> i     | I        | {i, s, m}    | {i, s, m, f, g, h} | {i}       |    |    | p3 |    |    |    |    |   |
 | p4 | I -> sBg   | I        | {i, s, m}    | {i, s, m, f, g, h} | {s}       |    |    |    | p4 |    |    |    |   |
 | p5 | I -> mBh   | I        | {i, s, m}    | {i, s, m, f, g, h} | {m}       |    |    |    |    |    | p5 |    |   |
+
+To run the code:
+```cs
+dotnet run [word]$
+```
+**IMPORTANT** the word to recognize must finish with _$_.
